@@ -1,0 +1,45 @@
+/*
+ *
+ * Using named div tags grid and gItem for page layout (row, col)
+ *
+ */
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Arial, serif;
+}
+
+.grid {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: grid;
+    padding: 6px;
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    grid-template-columns: 150px 250px auto;
+}
+
+.grid1 {
+   background-color: white;
+   display: grid;
+   padding: 2px;
+   grid-column-gap: 1px;
+   grid-row-gap: 1px;
+   grid-template-columns: 250px 250px 250px;
+ }
+
+.gItem {
+  background-color: lightskyblue;
+  font-size: 20px;
+  padding: 3px;
+  margin: 3px;
+  text-align: left;
+}
+.gItemCntr {
+    background-color: lightskyblue;
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
